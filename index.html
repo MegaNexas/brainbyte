@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BrainByte</title>
+    <link rel="icon" href="BrainByte.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="game-title">BrainByte</h1>
+        <div id="start-menu">
+            <button onclick="startGame('RisingGenius')">Rising Genius</button>
+            <button onclick="startGame('RisingProdigy')">Rising Prodigy</button>
+    <!-- DIFFICULTY CHOICES-->
+    <div id="difficulty-container">
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+            <option value="ALL">All</option>
+            <option value="EASY">Easy</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HARD">Hard</option>
+        </select>
+    </div>
+    <!-- TOPIC CHOICES-->
+    <div id="topic-container">
+        <label for="topic">Topic:</label>
+        <select id="topic">
+            <option value="ALL">All</option>
+            <option value="SCIENCE">Science</option>
+            <option value="HISTORY">History</option>
+            <option value="GEOGRAPHY">Geography</option>
+        </select>
+    </div>
+        </div>
+        <div id="game-container" style="display: none;">
+            <div id="question-container"></div>
+            <div id="answer-buttons" class="btn-container"></div>
+            <div id="score">Score: 0</div>
+            <div id="genius-rush">Genius Rush: 0x</div>
+        </div>
+    </div>
+
+    <script src="scienceQuestions.js"></script>
+    <script src="historyQuestions.js"></script>
+    <script src="geographyQuestions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
