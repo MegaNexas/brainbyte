@@ -4,7 +4,7 @@ Thanks for checking out the BrainByte project! This is my first attempt at creat
 
 ---
 
-**Adding Questions to the Pool**
+Adding Questions to the Pool
 1. Open an Existing Topic Questions File
 - Pick one you find interesting and add more questions to your liking!!
 - To add more questions, just follow this format:
@@ -23,7 +23,7 @@ Thanks for checking out the BrainByte project! This is my first attempt at creat
 
 
 
-**Adding More Question Topic JavaScript Files**
+Adding More Question Topic JavaScript Files
 
 1. Create a New JavaScript File
 - Name it something that makes sense for your topic, e.g., `mathQuestions.js` or `literatureQuestions.js`.
@@ -36,7 +36,7 @@ HARD: Questions that most experts in that specific "subject" can answer.
 
 
 
-**Reference the New Files** (If you have made a new topic file)
+Reference the New Files (If you have made a new topic file)
 1. Update the "script.js" file
 - Make sure to include your new topic arrays in the main "script.js". Here's how:
    //script.js
@@ -65,7 +65,7 @@ HARD: Questions that most experts in that specific "subject" can answer.
 
 
 
-**Test The Project**
+Test The Project
 - Once you have done the deed, you can either launch another instance of the project in the browser of your choosing or just refresh an already created instance of the project.
 
 
